@@ -1,8 +1,8 @@
-##my test push to git
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function computes and caches the inverse of a matrix in a list.  It assumes the input is
+## an invertable matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
                 m <- NULL
@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## this function returns the inverse of a matrix.  If the result exists, it will simply return the value
+## a list.  If the result is not in the cached list, it will calculae the inverse.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
